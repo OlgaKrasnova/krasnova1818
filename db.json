@@ -1,0 +1,89 @@
+{
+  "motherboards": [
+    {
+      "name": "Плата1",
+      "vendorcode": "Артикул1",
+      "price": 8888,
+      "chipset": "рррр",
+      "formfactor": "формфактор",
+      "id": 1
+    },
+    {
+      "name": "Плата2",
+      "vendorcode": "Артикул2",
+      "price": 3000,
+      "chipset": "чипсет",
+      "formfactor": "формфактор",
+      "id": 2
+    },
+    {
+      "name": "нене плата",
+      "vendorcode": "ааа",
+      "price": 6800,
+      "chipset": "чипсет",
+      "formfactor": "формфактор",
+      "id": 3
+    }
+  ],
+  "processors": [
+    {
+      "name": "Процессор1",
+      "vendorcode": "аааа",
+      "price": "4000",
+      "chipset": "чипсет",
+      "core": "5",
+      "frequency": "4555",
+      "id": 1
+    },
+    {
+      "name": "Процессор1",
+      "vendorcode": "аааа",
+      "price": "4000",
+      "chipset": "чипсет",
+      "core": "5",
+      "frequency": "4555",
+      "id": 2
+    },
+    {
+      "name": "ыыы",
+      "vendorcode": "ыыы",
+      "price": 8888,
+      "chipset": "ыыы",
+      "core": 888,
+      "frequency": 888,
+      "id": 3
+    },
+    {
+      "name": "Новый процессор",
+      "vendorcode": "артикуль2",
+      "price": 2900,
+      "chipset": "чипсет",
+      "core": 12,
+      "frequency": 4000,
+      "id": 5
+    }
+  ],
+  "cards": [
+    {
+      "name": "Видеокарта1",
+      "vendorcode": "Артикул1",
+      "price": 6000,
+      "capacity": 4096,
+      "id": 1
+    },
+    {
+      "name": "Видеокарта2",
+      "vendorcode": "Артикул2",
+      "price": 4500,
+      "capacity": 2048,
+      "id": 2
+    },
+    {
+      "name": "Не видеокарта",
+      "vendorcode": "Артикул3",
+      "price": 3000,
+      "capacity": 1024,
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<div class="container">
+    <h2>Добавление нового процессора</h2>
+    <form [formGroup]="addFormProcessor" (ngSubmit)="onSave()">
+      <div class="row mt-2">
+        <div class="col-2">
+          <input type="text" formControlName="name" class="form-control" placeholder="Название" #name>
+        </div>
+        <div class="col-2">
+          <input type="text" formControlName="vendorcode" class="form-control" placeholder="Артикул" #vendorcode>
+        </div>
+        <div class="col-2">
+          <input type="number" formControlName="price" class="form-control" placeholder="Цена" #price> <!-- [textMask]="{mask: mask}" -->
+        </div>
+        <div class="col-2">
+          <input type="text" formControlName="chipset" class="form-control" placeholder="Чипсет" #chipset> <!-- [textMask]="{mask: mask}" -->
+        </div>
+        <div class="col-2">
+          <input type="number" formControlName="core" class="form-control" placeholder="Количество ядер" #formfactor> <!-- [textMask]="{mask: mask}" -->
+        </div>
+        <div class="col-2">
+            <input type="number" formControlName="frequency" class="form-control" placeholder="Частота" #formfactor> <!-- [textMask]="{mask: mask}" -->
+          </div>
+        <div class="col-2">
+          <button type="submit" [disabled]="addFormProcessor.invalid" class="btn btn-success">Сохранить</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  

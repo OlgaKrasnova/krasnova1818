@@ -1,0 +1,5 @@
+<app-header></app-header>
+
+<router-outlet (addmotherboard)="personsService.onAddMotherboard($event)"></router-outlet>
+<router-outlet (addprocessor)="processorsService.onAddProcessor($event)"></router-outlet>
+<router-outlet (addcard)="cardsService.onAddCards($event)"></router-outlet>

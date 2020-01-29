@@ -1,0 +1,17 @@
+<div class="row">   
+    <div class="col-md-1 pt-2">{{inProcessor.id}}</div>
+    <div class="col-2 pt-2 pl-4">{{inProcessor.name}}</div>
+    <div class="col-2 pt-2 pl-4">{{inProcessor.vendorcode}}</div>   
+    <div class="col-2 pt-2 pl-4">{{inProcessor.price}}</div>
+    <div class="col-2 pt-2 pl-4">{{inProcessor.chipset}}</div>
+    <div class="col-1 pt-2 pl-4">{{inProcessor.core}}</div>
+    <div class="col-1 pt-2 pl-4">{{inProcessor.frequency}}</div>
+    <div class="row pl-10">
+      <a [routerLink]="['/editprocessor', inProcessor.id]">
+        <button class="btn btn-primary">Редактировать</button>
+      </a>
+      <button class="btn btn-danger m-2" (click)="onDeleteProcessor()">Удалить</button>
+    </div>
+  </div>
+  
+  
